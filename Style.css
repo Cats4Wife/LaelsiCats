@@ -1,0 +1,221 @@
+
+body{
+	margin:2%;
+	background:#f0e0df;
+}
+header{
+	background:linear-gradient(#3366cc, #00ffff);
+	height:150px;
+	padding:1px;
+	z-index:1;
+}
+h1{
+	font-size:740%;
+	margin:0 auto;
+	font-family:Segoe Print;
+	margin:-32px 0 0 70px;
+}
+nav{
+	overflow:hidden;	
+	float:right;
+	background:none;
+	margin-top:-178px;
+
+}
+nav a{
+	float:left;
+	text-decoration:none;
+	padding:14px 16px;
+	font-weight:bold;
+	height:19px;
+}
+.dropdownShelter, .dropdownCatFacts{
+	float:left;
+}
+.DropLinks, .DropLinksB{
+	position:absolute;
+	display:none;
+	float:left;
+}
+
+.dropdownShelter:hover .DropLinks, .dropdownCatFacts:hover .DropLinksB{
+	display:block;
+}
+.Shelters, .CatFacts{
+	outline:none;
+	border:none;
+	height:47px;
+	font-weight:Bold;
+	font-size:90%;
+}
+.Shelters{
+	background:none;
+	padding:14px 55px;
+}
+
+.DropLinks a:hover, .DropLinksB a:hover{
+	background:#6e575e;
+}
+nav a:hover, .Shelters:hover, .CatFacts:hover{
+	background:#6e575e;
+}
+
+.CatFacts{
+	background:none;
+	padding:14px 34px;
+}
+nav a, .Shelters, .CatFacts{
+	border-left:1px solid #16181a;
+	color:#f5ebee;
+	font-weight:bold;
+	background-color:#d15a7e;
+}
+.DropLinks a, .DropLinksB a{
+	float:none;
+	display:block;
+	background-color:#d15a7e;
+	border-right:none;
+	border-left:none;
+	margin-left:1px;
+	font-size:90%;
+	line-height:10px;
+}
+.DropLinks a{
+	width:136px;
+}
+.DropLinksB a{
+	width:100px;
+}
+
+/*Beginning of the .Left Class section (.left, 3 Cat weblink photos)*/
+
+.Left{
+	
+	width:300px;
+	border:2px solid black;
+	float:left;
+	height:100%;
+}
+img{
+	width:200px;
+	height:200px;
+	display:block;
+	margin:0 auto;
+	margin-top:10%;
+	position:relative;
+	bottom:5px;
+	border:2px solid black;
+	border-radius:100px;
+}
+figcaption{
+	text-align:center;
+	color:#42f5b3;
+	position:relative;
+	font-weight:bold;
+	font-size:170%;
+	margin-top:-18%;
+	-webkit-text-stroke:1px black;
+}
+.Ruby{
+	border:4px solid black;
+}
+.Alice{
+	border:4px solid black;
+}
+.Remy{
+	border:4px solid black;
+}
+
+/*Main section for cat pics and vids*/
+.About{
+	font-family:"Times";
+	font-size:200%;
+	margin:1%;
+}
+main{
+	text-align:center;
+	width:75%;
+	float:right;
+	margin-right:1%;
+	border:3px solid black;
+	box-shadow:0 0 0 3px #999
+	
+	
+}
+.Background{
+    position: relative; 
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	justify-content:center;
+}
+.Background::before {    
+      content: "";
+      background-image: url("Photos/CatHeader.jpg");
+      background-size: cover;
+	  background-position:center;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.70;
+}
+h2{
+	font-size:250%;
+	margin-top:1%;
+	position:absolute;
+	top:20px;
+	text-shadow:2px 2px #fcf2f5
+}
+p{
+	font-size:120%;
+	font-style:italic;
+	margin:0 auto;
+	padding:10px;
+}
+.buttons button{
+	display:inline-block;
+	font-size:150%;
+	padding:12px 14px;
+	border-radius:25px;
+	width:35%;
+	font-weight:bold;
+	margin:0 15px 0 15px;
+	position:relative;
+	top:40px;
+	z-index:1;
+	
+}
+.Pics{
+	background:#03bafc
+}
+.Vids{
+	background:#03bafc;
+}
+.Videos Video{
+	width:200px;
+	height:250px;
+	border-radius:25px;
+	display:inline-block;
+	margin:7%;
+}
+.Pictures img{
+	display:inline-block;
+	border:1px solid black;
+	border-radius:2px;
+	margin:7%;
+}
+.Videos Video:hover{
+	transform:scale(1.6);
+}
+.Pictures img:hover{
+	transform:scale(1.6);
+}
+.Left img:hover{
+	border:4px solid black;
+}
+.Left, main{
+	margin-top:1%;
+}
